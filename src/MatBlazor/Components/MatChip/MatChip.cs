@@ -11,6 +11,8 @@ namespace MatBlazor
     /// </summary>
     public partial class MatChip
     {
+        [Parameter]
+        public RenderFragment ChildContent { get; set; }
 
         /// <summary>
         /// Optional icon, displayed before the label.
